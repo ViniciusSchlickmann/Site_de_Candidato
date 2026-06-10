@@ -15,11 +15,15 @@ nav {
 nav ul {
     display: flex;
     gap: 30px;
+    list-style: none;
 }
 
 nav ul li {
     color: white;
-    list-style: none;
+/* ---------------------------------------------------------- */
+    border-bottom: 3px solid transparent;
+    padding-bottom: 10px;
+/* ---------------------------------------------------------- */
 }
 
 nav a {
@@ -32,6 +36,5 @@ nav a {
 }
 
 nav li:hover {
-    border-bottom: 2px solid coral;
-    padding-bottom: 15px;
+    border-bottom: 3px solid coral;
 }
