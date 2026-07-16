@@ -40,28 +40,38 @@ nav li:hover {
 }
 /* --------------------------------------- */
 
-.fila1 {
+.fila1, .fila2, .fila3{
     width: 80%;
     margin-left: 10%;
     margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.fila1 figure img{
+.noticia2, .noticia3{
+    width: 48%;
+}
+
+.noticia4, .noticia5, .noticia6{
+    width: 31%;
+}
+
+.fila1 figure img, .fila2 figure img, .fila3 figure img{
     width: 100%;
-    border-radius: 32px;
+    border-radius: 16px;
 }
 
-.fila1 figure figcaption{
+.fila1 figure figcaption, .fila2 figure figcaption, .fila3 figure figcaption{
     text-align: center;
     margin-bottom: 2%;
 }
 
-.fila1 h2{
+.fila1 h2, .fila2 h2, .fila3 h2{
     color: coral;
     margin-bottom: 1%;
 }
 
-.fila1 p{
+.fila1 p, .fila2 p, .fila3 p{
     font-size: 16px;
 }
 

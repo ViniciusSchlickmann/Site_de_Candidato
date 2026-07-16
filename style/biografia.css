@@ -15,11 +15,15 @@ nav {
 nav ul {
     display: flex;
     gap: 30px;
+    list-style: none;
 }
 
 nav ul li {
     color: white;
-    list-style: none;
+/* ---------------------------------------------------------- */
+    border-bottom: 3px solid transparent;
+    padding-bottom: 10px;
+/* ---------------------------------------------------------- */
 }
 
 nav a {
@@ -32,6 +36,31 @@ nav a {
 }
 
 nav li:hover {
-    border-bottom: 2px solid coral;
-    padding-bottom: 15px;
+    border-bottom: 3px solid coral;
+}
+/* --------------------------------------- */
+footer {
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer img {
+    width: 40px;
+}
+
+footer p {
+    padding-bottom: 20px;
+}
+
+.linha-footer {
+    height: 10px;
+    width: 100%;
+    background-color: coral;
+    margin-bottom: 20px;
 }
