@@ -38,7 +38,90 @@ nav a {
 nav li:hover {
     border-bottom: 3px solid coral;
 }
-/* --------------------------------------- */
+
+/* --------------BODY------------------------- */
+.apresentação{
+    background-color: white;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.foto{
+    width: 35%;
+}
+
+.foto img{
+    width: 100%;
+}
+
+.informações{
+    margin-left: 3%;
+}
+
+.perfil h1{
+    color: #112244;
+    padding-bottom: 1.5%;
+}
+
+.perfil p{
+    font-size: 18px;
+    padding-bottom: 1.5%;
+    color: #112244;
+}
+
+.perfil h3{
+    color: coral;
+    padding-bottom: 1.5%;
+}
+
+.botões{
+    display: flex;
+    padding-bottom: 1.5%;
+    gap: 18px;
+}
+
+.botão{
+    background-color: #112244;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.botão:hover{
+    background-color: coral;
+    scale: 1.1;
+}
+
+.botão a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.dados_gerais h2{
+    color: coral;
+}
+
+.dados_gerais ul{
+    font-size: 18px;
+    color: #112244;
+}
+
+#trajetoria{
+    background-color: #112244;
+}
+
+.feitos_comunidade{
+    background-color: white;
+}
+
+#contato{
+    background-color: #112244;
+}
+
+
+/* --------------FOOTER------------------------- */
 footer {
     text-align: center;
 }
