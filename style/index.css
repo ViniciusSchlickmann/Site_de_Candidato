@@ -61,9 +61,148 @@ nav li:hover {
     text-shadow: #000000 5px 5px 15px;
 }
 
+/* SECTION CANDIDATO */
+.candidato {
+    display: flex;
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    gap: 3%;
+}
+
+.foto_candidato{
+    width: 30%;
+}
+
+.foto_candidato img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.dados_candidato {
+    width: 70%;
+}
+
+.dados_candidato h3{
+    color: coral;
+}
+
+.dados_candidato h1{
+    color: #112244;
+    padding-bottom: 1%;
+}
+
+.dados_candidato p{
+    color: #112244;
+    font-size: 18px;
+}
+
+/* SECTION TRAJETÓRIA */
+.trajetoria{
+    display: flex;
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    gap: 3%;
+}
+
+.trabalho{
+    width: 60%;
+}
+
+.trabalho h3{
+    color: coral;
+}
+
+.trabalho h1{
+    color: #112244;
+    padding-bottom: 1%;
+}
+
+.trabalho p{
+    color: #112244;
+    font-size: 18px;
+}
+
+.accordeons{
+    width: 40%;
+}
+
+.accordeons details{
+    width: 100%;
+    background-color: coral;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.accordeons summary{
+    color: #112244;
+    font-weight: bold;
+    padding: 18px;
+    cursor: pointer;
+}
+
+.accordeons details p{
+    padding: 12px;
+    background-color: #ffffff;
+    color: #112244;
+    border: 1px solid coral;
+    border-radius: 0 0 8px 8px;
+}
+
+
 /* SECTION VALORES */
 .valores{
     background-color: #112244;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5%;
+    padding-top: 3%;
+}
+
+.valores h3{
+    color: coral;
+}
+
+.valores h1{
+    color: #ffffff;
+    padding-bottom: 1%;
+
+}
+
+.conteudo p{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 3%;
+}
+
+/* CARDS */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+.card{
+    flex: 1 1 calc(32% - 3%);
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1%;
+    margin-bottom: 3%;
+}
+
+.card p{
+    color: #112244;
+    padding-bottom: 1%;
+}
+
+.card h3{
+    color: #112244;
+    padding-bottom: 1%;
+}
+
+.card img{
+    width: 40px;
 }
 
 
