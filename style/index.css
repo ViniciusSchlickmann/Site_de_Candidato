@@ -233,3 +233,19 @@ footer p {
     background-color: coral;
     margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    .titulohome h2{
+        font-size: 32px;
+    }
+
+    .home img{
+        height: 150px;
+    }
+}
+
+@media (max-width: 425px) {
+    .titulohome h2{
+        font-size: 24px;
+    }
+}
